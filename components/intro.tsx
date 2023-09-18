@@ -63,9 +63,9 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <div className="font-bold">Hello, I'm gymitat.</div>
-        <div>I'm a <span className="font-bold">full-stack developer</span> and{" "}
+        <div>I'm a <span className="font-bold">full-stack Developer</span> and{" "}
         <span className="font-bold">Solopreneur</span></div> 
-        <div>making</div>
+        <div>Making</div>
         <div><a href="https://hrefgo.com"><span className="font-bold text-blue-600">Hrefgo AI</span></a></div>
       </motion.h1>
 
