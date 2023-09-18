@@ -30,7 +30,7 @@ export default function Intro() {
               duration: 0.2,
             }}
           >
-            <Image
+            {/* <Image
               src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=368&h=368&q=100"
               alt="Ricardo portrait"
               width="192"
@@ -38,7 +38,7 @@ export default function Intro() {
               quality="95"
               priority={true}
               className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
-            />
+            /> */}
           </motion.div>
 
           <motion.span
@@ -62,14 +62,14 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Ricardo.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">8 years</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+        <div className="font-bold">Hello, I'm gymitat.</div>
+        <div>I'm a <span className="font-bold">full-stack developer</span> and{" "}
+        <span className="font-bold">Solopreneur</span></div> 
+        <div>making</div>
+        <div><a href="https://hrefgo.com"><span className="font-bold text-blue-600">Hrefgo AI</span></a></div>
       </motion.h1>
 
-      <motion.div
+      {/* <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
@@ -113,7 +113,7 @@ export default function Intro() {
         >
           <FaGithubSquare />
         </a>
-      </motion.div>
+      </motion.div> */}
     </section>
   );
 }
